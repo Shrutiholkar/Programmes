@@ -1,0 +1,33 @@
+//accept n numbes in an array and accept a number to count how many times number is present in that array
+
+
+#include<stdio.h>
+int main()
+{
+int a[100],i,n,num,c=0;
+printf("enter limit");
+scanf("%d",&n);
+for(i=0;i<n;i++)
+{
+scanf("%d",&a[i]);
+}
+printf("enter no to search");
+scanf("%d",&num);
+for(i=0;i<n;i++)
+{
+if(a[i]==num)
+{
+c++;
+}
+}
+printf("count =%d",c);
+
+
+}
+
+
+
+
+
+
+
